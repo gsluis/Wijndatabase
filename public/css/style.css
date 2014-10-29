@@ -1,21 +1,26 @@
 body {
     padding-top: 60px;
     padding-bottom: 40px;
+	background-color: #B2DBD8;
 }
 
 .zf-green {
     color: #68b604;
 }
 
+.sluisit-green {
+    color: #ABCC76;
+}
+
 .btn-success {
-  background-color: #57a900;
-  background-image: -moz-linear-gradient(top, #70d900, #57a900);
-  background-image: -ms-linear-gradient(top, #70d900, #57a900);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#70d900), to(#57a900));
-  background-image: -webkit-linear-gradient(top, #70d900, #57a900);
-  background-image: -o-linear-gradient(top, #70d900, #57a900);
-  background-image: linear-gradient(top, #70d900, #57a900);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#70d900', endColorstr='#57a900', GradientType=0);
+  background-color: #ABCC76;
+  background-image: -moz-linear-gradient(top, #ABCC76, #ABCC76);
+  background-image: -ms-linear-gradient(top, #ABCC76, #ABCC76);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ABCC76), to(#ABCC760));
+  background-image: -webkit-linear-gradient(top, #ABCC76, #ABCC76);
+  background-image: -o-linear-gradient(top, #ABCC76, #ABCC76);
+  background-image: linear-gradient(top, #ABCC76, #ABCC76);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ABCC76', endColorstr='#ABCC76', GradientType=0);
 }
 
 .btn-success:hover,
@@ -23,15 +28,76 @@ body {
 .btn-success.active,
 .btn-success.disabled,
 .btn-success[disabled] {
-  background-color: #57a900;
+  background-color: #ABCC76;
 }
 
 .btn-success:active, .btn-success.active {
-  background-color: #57a900;
+  background-color: #ABCC76;
 }
 
 div.container a.brand {
-    background: url("../img/zf2-logo.png") no-repeat scroll 0 10px transparent;
+    background: url("../img/Logo_gerton_FINAL.png") no-repeat scroll 0 10px transparent;
     margin-left: 0;
     padding: 8px 20px 12px 40px;
+}
+
+/* Navigation bar custom style*/
+.navbar-default {
+	background-color: #B2DBD8 !important;
+	border-color: #B2DBD8 !important;
+}
+.navbar-default .navbar-brand {
+	color: #B2DBD8 !important;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #B2DBD8 !important;
+}
+.navbar-default .navbar-text {
+	color: #B2DBD8 !important;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #B2DBD8 !important;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+	color: #B2DBD8 !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #B2DBD8 !important;
+	background-color: #B2DBD8 !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+	color: #B2DBD8 !important;
+	background-color: #B2DBD8 !important;
+}
+.navbar-default .navbar-toggle {
+	border-color: #B2DBD8;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #B2DBD8 !important;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #B2DBD8 !important;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+	border-color: #B2DBD8 !important;
+}
+.navbar-default .navbar-link {
+	color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+	color: #B2DBD8 !important;
+}
+
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #B2DBD8 !important;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #B2DBD8 !important;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #B2DBD8 !important;
+		background-color: #B2DBD8 !important;
+	}
 }

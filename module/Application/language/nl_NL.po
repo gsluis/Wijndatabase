@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZendSkeletonApplication\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-10-28 11:06+0100\n"
-"PO-Revision-Date: 2014-10-28 11:06+0100\n"
+"POT-Creation-Date: 2014-10-28 13:03+0100\n"
+"PO-Revision-Date: 2014-10-28 13:04+0100\n"
 "Last-Translator: Gerton Sluis <info@sluisitconsultancy.nl>\n"
 "Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
 "Language: nl_NL\n"
@@ -21,19 +21,23 @@ msgid "Welcome to the %sWinedatabase%s!"
 msgstr "Welkom tot de %sWijndatabase%s!"
 
 #: ../view/application/index/index.phtml:3
-msgid "This is the first version of Winedatabase."
-msgstr "Dit is de eerste versie van Wijndatabase!"
+#, php-format
+msgid "This is the first version of %sWinedatabase%s."
+msgstr "Dit is de eerste versie van %sWijndatabase%s!"
 
 #: ../view/application/index/index.phtml:4
-#: ../view/application/index/index.phtml:54
-msgid "Github"
-msgstr "Github"
+msgid "We are currently working on logging system."
+msgstr "We werken momenteel aan een inlog systeem!"
 
-#: ../view/application/index/index.phtml:12
+#: ../view/application/index/index.phtml:5
+msgid "Log in"
+msgstr ""
+
+#: ../view/application/index/index.phtml:13
 msgid "Follow the developments"
 msgstr "Volg de ontwikkelingen!"
 
-#: ../view/application/index/index.phtml:15
+#: ../view/application/index/index.phtml:16
 msgid ""
 "Winedatabase has just started! If you are interested in the developments "
 "follow us on Twitter!"
@@ -41,41 +45,45 @@ msgstr ""
 "Wijndatabase is net begonnen! Als je geïnteresseerd bent in de "
 "ontwikkelingen, volg ons op Twitter!"
 
-#: ../view/application/index/index.phtml:16
+#: ../view/application/index/index.phtml:17
 msgid "ZF2 Development Portal"
 msgstr "ZF2 Ontwikkelaars Portaal"
 
-#: ../view/application/index/index.phtml:24
+#: ../view/application/index/index.phtml:25
 msgid "Discover the different modules"
 msgstr "Ontdek de verschillende modules"
 
-#: ../view/application/index/index.phtml:27
+#: ../view/application/index/index.phtml:28
 msgid "Check the modules, more are to come!"
 msgstr "Check de modules, er volgen er nog meer!"
 
-#: ../view/application/index/index.phtml:28
+#: ../view/application/index/index.phtml:29
 msgid "Check the modules"
 msgstr "Check de modules!"
 
-#: ../view/application/index/index.phtml:36
+#: ../view/application/index/index.phtml:37
 msgid "Contact"
 msgstr "Contact"
 
-#: ../view/application/index/index.phtml:39
+#: ../view/application/index/index.phtml:40
 msgid "Click here if you have questions"
 msgstr "Klik hier als je vragen hebt! "
 
-#: ../view/application/index/index.phtml:40
+#: ../view/application/index/index.phtml:41
 msgid "Ask us"
 msgstr "Vraag het ons!"
 
-#: ../view/application/index/index.phtml:50
+#: ../view/application/index/index.phtml:51
 msgid "Version Control on Github"
 msgstr "Version Control op Github"
 
-#: ../view/application/index/index.phtml:53
+#: ../view/application/index/index.phtml:54
 msgid "Check out Github for the latest version of Winedatabase."
 msgstr "Check Github voor de meest recente versie van Wijndatabase!"
+
+#: ../view/application/index/index.phtml:55
+msgid "Github"
+msgstr "Github"
 
 #: ../view/error/404.phtml:1
 msgid "A 404 error occurred"

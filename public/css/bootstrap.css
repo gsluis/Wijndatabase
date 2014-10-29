@@ -4702,7 +4702,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
+  background-color: !important;
   border-color: #e7e7e7;
 }
 
@@ -5777,7 +5777,7 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-default > .panel-heading {
   color: #333333;
-  background-color: #f5f5f5;
+  background-color: #f5f5f5 ;
   border-color: #dddddd;
 }
 
