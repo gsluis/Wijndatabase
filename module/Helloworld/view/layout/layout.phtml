@@ -36,28 +36,7 @@
                     </button>
                     <a class="navbar-brand" class="active" href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Winedatabase') ?></a>
                 </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Home') ?></a></li>
-                        <li><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Detail1') ?></a></li>
-                        <li><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Detail2') ?></a></li>
-                        <li class="dropdown">
-                                             <a href="<?php echo $this->url('home') ?>" class="dropdown-toggle" data-toggle="dropdown">
-               <?php echo $this->translate('Detail3') ?> <b class="caret"></b>
-            </a>
-            <ul class="dropdown-menu" >
-               <li><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Choice1') ?></a></li>
-               <li><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Choice2') ?></a></li>
-               <li><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Choice3') ?></a></li>
-            </ul>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?php echo $this->url('home') ?>"><?php echo $this->translate('Login') ?></a></li>
-            </ul>
-                </div><!--/.nav-collapse -->
-            </div>
-        </nav>
-        <div class="container">
+           <div class="container">
             <?php echo $this->content; ?>
             <hr>
             <footer>
